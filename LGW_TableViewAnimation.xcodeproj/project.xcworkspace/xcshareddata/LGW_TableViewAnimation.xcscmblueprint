@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E4142E7AAABCF96C371967CA9A15BB2DFD1DE45B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E4142E7AAABCF96C371967CA9A15BB2DFD1DE45B" : 0,
+    "45E4D9455C0EC64C12427D42868A957CDC4281B0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D99D01C5-183B-43BC-ACDA-089416182AC3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E4142E7AAABCF96C371967CA9A15BB2DFD1DE45B" : "LGW_TableViewAnimation\/",
+    "45E4D9455C0EC64C12427D42868A957CDC4281B0" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LGW_TableViewAnimation",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LGW_TableViewAnimation.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "192.168.8.138:iOS\/PPCar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "45E4D9455C0EC64C12427D42868A957CDC4281B0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LiGuanWen\/LGW_TableViewAnimation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E4142E7AAABCF96C371967CA9A15BB2DFD1DE45B"
+    }
+  ]
+}

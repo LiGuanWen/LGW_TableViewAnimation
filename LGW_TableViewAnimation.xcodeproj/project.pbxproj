@@ -20,6 +20,9 @@
 		FD2FDE291CCE621F009D6D78 /* EvaluateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2FDE271CCE621F009D6D78 /* EvaluateCell.m */; };
 		FD2FDE2A1CCE621F009D6D78 /* EvaluateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD2FDE281CCE621F009D6D78 /* EvaluateCell.xib */; };
 		FD2FDE2C1CCE686F009D6D78 /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = FD2FDE2B1CCE686F009D6D78 /* seven.png */; };
+		FD2FDEBC1CCF3895009D6D78 /* CellEnterTheAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2FDEBB1CCF3895009D6D78 /* CellEnterTheAnimationViewController.m */; };
+		FD2FDEC11CCF3952009D6D78 /* NavAndHeaderChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD2FDEC01CCF3952009D6D78 /* NavAndHeaderChangeViewController.m */; };
+		FD2FDEC31CCF3C6B009D6D78 /* huoying.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD2FDEC21CCF3C6B009D6D78 /* huoying.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,11 @@
 		FD2FDE271CCE621F009D6D78 /* EvaluateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EvaluateCell.m; sourceTree = "<group>"; };
 		FD2FDE281CCE621F009D6D78 /* EvaluateCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EvaluateCell.xib; sourceTree = "<group>"; };
 		FD2FDE2B1CCE686F009D6D78 /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
+		FD2FDEBA1CCF3895009D6D78 /* CellEnterTheAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellEnterTheAnimationViewController.h; sourceTree = "<group>"; };
+		FD2FDEBB1CCF3895009D6D78 /* CellEnterTheAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellEnterTheAnimationViewController.m; sourceTree = "<group>"; };
+		FD2FDEBF1CCF3952009D6D78 /* NavAndHeaderChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavAndHeaderChangeViewController.h; sourceTree = "<group>"; };
+		FD2FDEC01CCF3952009D6D78 /* NavAndHeaderChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavAndHeaderChangeViewController.m; sourceTree = "<group>"; };
+		FD2FDEC21CCF3C6B009D6D78 /* huoying.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huoying.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +125,11 @@
 				FD2FDDF11CCE619F009D6D78 /* AppDelegate.m */,
 				FD2FDDF31CCE619F009D6D78 /* ViewController.h */,
 				FD2FDDF41CCE619F009D6D78 /* ViewController.m */,
-				FD2FDE201CCE61D5009D6D78 /* Cells */,
+				FD2FDEBE1CCF3935009D6D78 /* tableView滑动nav、header动画 */,
+				FD2FDEBD1CCF38EE009D6D78 /* Cell进入动画 */,
 				FD2FDDF61CCE619F009D6D78 /* Main.storyboard */,
 				FD2FDDF91CCE619F009D6D78 /* Assets.xcassets */,
+				FD2FDEC21CCF3C6B009D6D78 /* huoying.jpg */,
 				FD2FDDFB1CCE619F009D6D78 /* LaunchScreen.storyboard */,
 				FD2FDDFE1CCE619F009D6D78 /* Info.plist */,
 				FD2FDDED1CCE619F009D6D78 /* Supporting Files */,
@@ -165,6 +175,25 @@
 				FD2FDE281CCE621F009D6D78 /* EvaluateCell.xib */,
 			);
 			name = Cells;
+			sourceTree = "<group>";
+		};
+		FD2FDEBD1CCF38EE009D6D78 /* Cell进入动画 */ = {
+			isa = PBXGroup;
+			children = (
+				FD2FDEBA1CCF3895009D6D78 /* CellEnterTheAnimationViewController.h */,
+				FD2FDEBB1CCF3895009D6D78 /* CellEnterTheAnimationViewController.m */,
+				FD2FDE201CCE61D5009D6D78 /* Cells */,
+			);
+			name = "Cell进入动画";
+			sourceTree = "<group>";
+		};
+		FD2FDEBE1CCF3935009D6D78 /* tableView滑动nav、header动画 */ = {
+			isa = PBXGroup;
+			children = (
+				FD2FDEBF1CCF3952009D6D78 /* NavAndHeaderChangeViewController.h */,
+				FD2FDEC01CCF3952009D6D78 /* NavAndHeaderChangeViewController.m */,
+			);
+			name = "tableView滑动nav、header动画";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +305,7 @@
 				FD2FDDFD1CCE619F009D6D78 /* LaunchScreen.storyboard in Resources */,
 				FD2FDDFA1CCE619F009D6D78 /* Assets.xcassets in Resources */,
 				FD2FDDF81CCE619F009D6D78 /* Main.storyboard in Resources */,
+				FD2FDEC31CCF3C6B009D6D78 /* huoying.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +334,8 @@
 				FD2FDDF51CCE619F009D6D78 /* ViewController.m in Sources */,
 				FD2FDE291CCE621F009D6D78 /* EvaluateCell.m in Sources */,
 				FD2FDDF21CCE619F009D6D78 /* AppDelegate.m in Sources */,
+				FD2FDEBC1CCF3895009D6D78 /* CellEnterTheAnimationViewController.m in Sources */,
+				FD2FDEC11CCF3952009D6D78 /* NavAndHeaderChangeViewController.m in Sources */,
 				FD2FDDEF1CCE619F009D6D78 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,6 +560,7 @@
 				FD2FDE191CCE619F009D6D78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD2FDE1A1CCE619F009D6D78 /* Build configuration list for PBXNativeTarget "LGW_TableViewAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +569,7 @@
 				FD2FDE1C1CCE619F009D6D78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD2FDE1D1CCE619F009D6D78 /* Build configuration list for PBXNativeTarget "LGW_TableViewAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +578,7 @@
 				FD2FDE1F1CCE619F009D6D78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
