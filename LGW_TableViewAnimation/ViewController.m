@@ -84,17 +84,9 @@
 -(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section == 1) {
 
+//        //平移动画 也可以在这里实现 （有时间在写）
+
         
-//        //平移动画
-//        CABasicAnimation *anim = [CABasicAnimation animationWithKeyPath:@"position"];
-//        // 动画持续1秒
-//        anim.duration =1;
-//        //因为CGPoint是结构体，所以用NSValue包装成一个OC对象
-//        anim.fromValue = [NSValue valueWithCGPoint:CGPointMake(50, 50)];
-//        anim.toValue = [NSValue valueWithCGPoint:CGPointMake(100, 100)];
-//        //通过MyAnim可以取回相应的动画对象，比如用来中途取消动画
-//        [cell.layer addAnimation:anim forKey:@"MyAnim"];
-//        
 //      旋转动画
 //        CATransform3D rotation;
 //        rotation = CATransform3DMakeRotation( (90.0*M_PI)/180, 0.0, 0.7, 0.4);
